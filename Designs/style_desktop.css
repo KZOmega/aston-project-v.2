@@ -96,6 +96,7 @@ li{
   float: right;
   border-style: solid;
   border-color: black;
+  height: fit-content;
 }
 
 .stats{
@@ -104,6 +105,8 @@ li{
   border-color: grey;
   height: 300px;
   margin-bottom: 10px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .progress-bar{
@@ -113,4 +116,48 @@ li{
 .bar{
   margin-top: 30px;
   text-align: center;
+}
+
+.tab{
+  margin-top: -30px;
+}
+
+.table-row {
+  padding: 8px;
+}
+
+.mt-20{
+  margin-top: 20px !important;
+}
+
+.ranking-bottom{
+  margin-top: -60px;
+  margin-right: 30px;
+  padding-right: 10px;
+  margin-left: -10px;
+  border: 1px solid;
+}
+
+.ranking-bottom-two{
+  margin-top: -450px !important;
+  margin-bottom: 200px;
+  border: 1px solid;
+}
+
+.mb-500{
+  margin-bottom: 500px;
+}
+
+.image-menu{
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.change-pw{
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
