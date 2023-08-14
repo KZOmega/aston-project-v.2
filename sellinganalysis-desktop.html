@@ -37,15 +37,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">銷售分析</a>
                     </li>
+                    <div class="vl"></div>
                     <li class="nav-item">
                         <a class="nav-link disabled">團隊排名</a>
                     </li>
+                    <div class="vl"></div>
                     <li class="nav-item">
                         <a class="nav-link disabled">店舖銷售</a>
                     </li>
+                    <div class="vl"></div>
                     <li class="nav-item">
                         <a class="nav-link disabled">公司通告</a>
                     </li>
+                    <div class="vl"></div>
                 </ul>
             </div>
         </div>
@@ -73,14 +77,14 @@
                         <div class="p-2" style="font-size: 15px;">Michelle</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
-                    <div class="d-flex flex-row mb-3" style="border: 1px solid;">
+                <div class="thick-left-border">
+                    <div class="d-flex flex-row mb-3">
                         <div class="greygrid p-2">2</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">Anderson</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
+                <div class="p-2">
                     <div class="d-flex flex-row mb-3">
                         <div class="greygrid p-2">3</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
@@ -89,19 +93,19 @@
                 </div>
             </div>
             <div class="col-md-8 white-grid">
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end p-20">
                     <div class="container">
                         <div class="d-flex justify-content-between">
                             本月銷售成績
                             <ul class="nav nav-underline">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">本月份</a>
+                                    <a class="btn btn-secondary" href="#" role="button">本月份</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">2023年</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">其他月份</a>
+                                    <a class="nav-link dropdown-toggle" href="#">其他月份</a>
                                 </li>
                             </ul>
                         </div>
@@ -109,13 +113,13 @@
                 </div>
                 <div class="container stats">
                     <div class="row">
-                        <div class="col-6 d-flex justify-content-start">明數</div>
+                        <div class="col-6 d-flex justify-content-start pt-40 pl-20">明數</div>
                         <div class="col-6">
-                            <div class="row">
+                            <div class="row signed-or-not">
                                 <div class="col md-6">已簽</div>
                                 <div class="col md-6">未簽</div>
                             </div>
-                            <div class="row">
+                            <div class="row" style="text-align: center;">
                                 <div class="col md-6">60,000 HKD</div>
                                 <div class="col md-6">200,000 HKD</div>
                             </div>
@@ -123,7 +127,7 @@
                     </div>
                     <div class="container bar">
                         <div class="row">
-                            <div class="col">
+                            <div class="col-9 ml-20 pb-30">
                                 <div class="progress" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
                                     <div class="progress-bar bg-danger"></div>
                                 </div>
@@ -134,30 +138,30 @@
                         </div>
                     </div>
                     <hr>
-                    <div class="container">
+                    <div class="container p-10">
                         <div class="row">
                             <div class="col-6 d-flex justify-content-start">暗數</div>
                             <div class="col-6 d-flex justify-content-end">10,000HKD</div>
                         </div>
                     </div>
                     <hr>
-                    <div class="container">
+                    <div class="container p-10">
                         <div class="row">
-                          <div class="col-3 text-end">
+                          <div class="col text-end">
                             <label class="d-flex justify-content-start">T2</label>
                           </div>
-                          <div class="col-6">
+                          <div class="col-9">
                             <div class="progress">
                               <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                           </div>
-                          <div class="col-3">
+                          <div class="col-2">
                             <label class="d-flex justify-content-end">70%</label>
                           </div>
                         </div>
-                      </div>
+                    </div>
                       <hr>
-                    <div class="container">
+                    <div class="container p-20">
                         <div class="row">
                             <div class="col-6 d-flex justify-content-start">RPH</div>
                             <div class="col-6 d-flex justify-content-end">1,000HKD</div>
@@ -166,8 +170,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 ranking-bottom">
-                <div class="p-2">
+            <div class="col-md-3 ranking-bottom" style="margin-top: -200px; border: 3px solid black;">
+                <div class="p-2 bg-dark-subtle">
                     本日店舖排行榜
                 </div>
                 <div class="p-2">
@@ -177,23 +181,25 @@
                         <div class="p-2" style="font-size: 15px;">MK</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
+                <hr class="hr-ranking">
+                <div class="p-2">
                     <div class="d-flex flex-row mb-1">
                         <div class="greygrid p-2">2</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">TST</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
+                <hr class="hr-ranking">
+                <div class="p-2">
                     <div class="d-flex flex-row mb-1">
                         <div class="greygrid p-2">3</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">CWB</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
-                    <div class="d-flex flex-row mb-1" style="border: 1px solid;">
-                        <div class="greygrid p-2">4</div>
+                <div class="thick-left-border" style="margin-left: 1px; margin-top: 5px;">
+                    <div class="d-flex flex-row mb-1">
+                        <div class="greygrid p-2">5</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">TM</div>
                     </div>
