@@ -1,15 +1,15 @@
 body {
-  background-color: rgb(218, 218, 218) !important;
+  background-color: rgb(242, 243, 245) !important;
 }
 
 .margin{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
 .grey-top{
-    background-color: darkslategrey; 
+    background-color: darkslategray; 
     height: 50px;
     width: 100vw;
     padding-left: 0px;
@@ -32,11 +32,12 @@ body {
 
 .white-top{
   background-color: white; 
-  height: 50px;
+  height: 80px;
   width: 100vw;
   padding-left: 150px !important ;
   padding-right: 150px !important;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   border-bottom-width: 50px;
   margin-bottom: 20px;
   margin-left: -12px;
@@ -64,10 +65,11 @@ li{
 }
 
 .navbar{
-  margin-left: 150px;
+  margin-left: 60px;
   margin-right: 150px;
   border-style: solid;
   border-color: rgb(124, 26, 26);
+
 }
 
 .greygrid{
@@ -87,7 +89,7 @@ li{
   border-style: solid;
   border-color: black;
   width: 50px;
-  height: 300px;
+  height: fit-content;
   margin-right: 10px;
 }
 
@@ -124,6 +126,8 @@ li{
 
 .table-row {
   padding: 8px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 
 .mt-20{
@@ -135,13 +139,17 @@ li{
   margin-right: 30px;
   padding-right: 10px;
   margin-left: -10px;
-  border: 1px solid;
+  border: 3px solid;
+  height: fit-content;
 }
 
 .ranking-bottom-two{
   margin-top: -450px !important;
   margin-bottom: 200px;
-  border: 1px solid;
+  border: 3px solid black;
+  margin-left: -10px;
+  width: 50px;
+  height: fit-content;
 }
 
 .mb-500{
@@ -161,3 +169,88 @@ li{
   margin-left: 10px;
   margin-bottom: 20px;
 }
+
+.vl {
+  border-left: 1px solid black;
+  height: 30px;
+}
+
+.thick-left-border {
+  border: 2px solid darkblue; 
+  border-left-width: 5px;
+  padding: 0px; 
+  margin-left: -11px;
+  margin-right: -11px;
+  padding: 5px;
+}
+
+.rank{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.thick-left-border-two{
+  border: 2px solid darkblue;
+  border-left-width: 5px;
+  padding: 0px !important;
+}
+
+.ml-100{
+  margin-left: 100px !important;
+}
+
+.mr-100{
+  margin-right: 200px !important;
+}
+
+.img-rank{
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%; 
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.greygrid-in-blue-border{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.hr-ranking{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.pt-40{
+  padding-top: 40px;
+}
+
+.pl-20{
+  padding-left: 20px;
+}
+
+.signed-or-not{
+  margin-top: 30px !important;
+  text-align: center;
+  color: grey;
+}
+
+.ml-20{
+  margin-left: 100px;
+}
+
+.p-10{
+  padding: 10px;
+}
+
+.pb-30{
+  padding-bottom: 30px;
+}
+
+.p-20{
+  padding: 20px;
+}
+
+.emblazoned-ranking{
+  background: linear-gradient(rgb(255, 255, 255), rgb(220, 220, 220)) !important;
+} 
