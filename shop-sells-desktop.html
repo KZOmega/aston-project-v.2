@@ -37,15 +37,19 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">銷售分析</a>
                     </li>
+                    <div class="vl"></div>
                     <li class="nav-item">
                         <a class="nav-link disabled">團隊排名</a>
                     </li>
+                    <div class="vl"></div>
                     <li class="nav-item">
                         <a class="nav-link disabled">店舖銷售</a>
                     </li>
+                    <div class="vl"></div>
                     <li class="nav-item">
                         <a class="nav-link disabled">公司通告</a>
                     </li>
+                    <div class="vl"></div>
                 </ul>
             </div>
         </div>
@@ -62,8 +66,8 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 ranking mb-500">
-                <div class="p-2 table-row">
+            <div class="col-md-3 ranking">
+                <div class="p-2 bg-dark-subtle">
                     本日銷售員排行榜
                 </div>
                 <div class="p-2">
@@ -73,14 +77,14 @@
                         <div class="p-2" style="font-size: 15px;">Michelle</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
-                    <div class="d-flex flex-row mb-3" style="border: 1px solid;">
+                <div class="thick-left-border">
+                    <div class="d-flex flex-row mb-3">
                         <div class="greygrid p-2">2</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">Anderson</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
+                <div class="p-2">
                     <div class="d-flex flex-row mb-3">
                         <div class="greygrid p-2">3</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
@@ -90,19 +94,19 @@
             </div>
             
             <div class="col-md-8 white-grid">
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end p-20 ">
                     <div class="container">
                         <div class="d-flex justify-content-between">
                             店舖銷售
                             <ul class="nav nav-underline">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">本月份</a>
+                                    <a class="btn btn-secondary" href="#" role="button">本月份</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">2023年</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">其他月份</a>
+                                    <a class="nav-link dropdown-toggle" href="#">其他月份</a>
                                 </li>
                             </ul>
                         </div>
@@ -139,53 +143,89 @@
                                 <div class="col md-6">未簽</div>
                             </div>
                             <div class="row">
-                                <div class="col md-6">60,000 HKD</div>
-                                <div class="col md-6">200,000 HKD</div>
+                                <div class="col md-6">900,000 HKD</div>
+                                <div class="col md-6">10,000 HKD</div>
                             </div>
                         </div>
                     </div>
                     <div class="container bar">
                         <div class="row">
-                            <div class="col-9">
-                                <div class="progress" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                    <div class="progress-bar bg-danger" style="width: 20%;"></div>
+                            <div class="col-11">
+                                <div class="progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-success" style="width: 60%;"></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <label id="file">20%</label>
                             </div>
                         </div>
-                        </div>
-                        <hr>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-9">暗數</div>
-                                <div class="col-1">10,000HKD</div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-start" style="margin-top: 30px;">消耗</div>
+                        <div class="col-6">
+                            <div class="row" style="margin-top: 30px;">
+                                <div class="col md-6">已簽</div>
+                                <div class="col md-6">未簽</div>
                             </div>
-                        <hr>
-                        <div class="container">
                             <div class="row">
-                                <div class="col-1">T2</div>
-                                <div class="col-9">
-                                    <div class="progress" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar bg-success" style="width: 70%"></div>
-                                    </div>
+                                <div class="col md-6">800,000 HKD</div>
+                                <div class="col md-6">5,000 HKD</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container bar">
+                        <div class="row">
+                            <div class="col-11">
+                                <div class="progress" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-success" style="width: 67%;"></div>
                                 </div>
-                                <div class="col-1">70%</div>
+                            </div>
+                            <div class="col">
+                                <label id="file">67%</label>
                             </div>
                         </div>
-                        <hr>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-9">RPH</div>
-                                <div class="col-1">1,000HKD</div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="margin: 10px; padding: 10px;">
+                            <div class="col">T5</div>
+                            <div class="col-10">
+                                <div class="progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-success" style="width: 60%;"></div>
+                                </div>
                             </div>
+                            <div class="col-1">
+                                <label id="file">60%</label>
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-auto">RPH</div>
+                            <div class="col-auto">900 HKD</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row" style="margin: 10px; padding: 10px;">
+                            <div class="col">T2</div>
+                            <div class="col-10">
+                                <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-success" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <label id="file">70%</label>
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="col-auto">DPH</div>
+                            <div class="col-auto">8,000 HKD</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 ranking-bottom-two">
-                <div class="p-2">
+            <div class="col-md-3 ranking-bottom" style="margin-top: -400px; border: 3px solid black; width: 25%;">
+                <div class="p-2 bg-dark-subtle">
                     本日店舖排行榜
                 </div>
                 <div class="p-2">
@@ -195,22 +235,24 @@
                         <div class="p-2" style="font-size: 15px;">MK</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
+                <hr>
+                <div class="p-2">
                     <div class="d-flex flex-row mb-1">
                         <div class="greygrid p-2">2</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">TST</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
+                <hr>
+                <div class="p-2">
                     <div class="d-flex flex-row mb-1">
                         <div class="greygrid p-2">3</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">CWB</div>
                     </div>
                 </div>
-                <div class="p-2 rank">
-                    <div class="d-flex flex-row mb-1" style="border: 1px solid;">
+                <div class="p-2">
+                    <div class="d-flex flex-row mb-1 thick-left-border-two">
                         <div class="greygrid p-2">4</div>
                         <div class="p-2"><img src="https://www.w3schools.com/w3images/avatar6.png" class="picranking"></div>
                         <div class="p-2" style="font-size: 15px;">TM</div>
